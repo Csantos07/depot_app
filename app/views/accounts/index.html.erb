@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Accounts</h1>
+
+<%= turbo_stream_from "accounts" %>
+
+<%= turbo_frame_tag "account_form" do %>
+  <%= render "accounts/form", account: @account %>
+<% end %>
+
+<%= turbo_frame_tag "accounts" do %>
+  <%= render @accounts %>
+<% end %>
