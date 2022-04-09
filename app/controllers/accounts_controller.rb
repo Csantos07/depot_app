@@ -3,7 +3,9 @@ class AccountsController < ApplicationController
 
   # GET /accounts or /accounts.json
   def index
-    @accounts = Account.all
+    # What is the best way to ensure that no other users can acces 
+    # another users account information
+    @accounts = current_user.accounts
     @account = Account.new
   end
 
