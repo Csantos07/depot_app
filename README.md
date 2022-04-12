@@ -37,7 +37,6 @@ Things you may want to cover:
 
 - Rails 6
 
-
 - Webpack
 
 - Action Mailer
@@ -49,6 +48,7 @@ Things you may want to cover:
 Jobs
 
 ## Authentication
+
 Pundit
 
 Devise
@@ -91,6 +91,20 @@ Factory Bot
 
 - ...
 
+## Completed
+
+- Hotwire is connected
+- Bootstrap
+- Devise (Still Need Logout)
+- Delete & Edit Accounts
+
+## Current Tasks
+
+- logout
+- clean UI
+- Assign multiple users to an account
+- Bootstrap Library Admin UTIL
+
 ## Issues
 
-- Current issue: Hotwire is not broadcasting the changes made to Accounts
+- Current issue: Hotwire is not broadcasting the changes made to Accounts (resolved)
