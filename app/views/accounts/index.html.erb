@@ -1,13 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Accounts</h1>
+<div class="window d-flex justify-content-center" style="color:red;">
+  <div class="account-form d-flex justify-content-center">
+    <div class="account-form-contents">
+      <h1>Accounts</h1>
 
-<%= turbo_stream_from "accounts" %>
+      <%= turbo_stream_from "accounts" %>
 
-<%= turbo_frame_tag "account_form" do %>
-  <%= render "accounts/form", account: @account %>
-<% end %>
+      <%= turbo_frame_tag "account_form" do %>
+        <%= render "accounts/form", account: @account %>
+      <% end %>
 
-<%= turbo_frame_tag "accounts" do %>
-  <%= render @accounts %>
-<% end %>
+      <%= turbo_frame_tag "accounts" do %>
+        <%= render @accounts %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+
