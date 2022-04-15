@@ -4,12 +4,19 @@
 
 <%= turbo_stream_from "accounts" %>
 
-<%= turbo_frame_tag "account_form" do %>
-  <%= render "accounts/form", account: @account %>
-<% end %>
+<div class="row">
+  <div class="col">
+    <%= turbo_frame_tag "account_form" do %>
+      <%= render "accounts/form", account: @account %>
+    <% end %>
+  </div>
+  
+  <div class="col-8">
+    <%= turbo_frame_tag "accounts" do %>
+      <%= render @accounts %>
+    <% end %>
+  </div>
 
-<%= turbo_frame_tag "accounts" do %>
-  <%= render @accounts %>
-<% end %>
+</div>
 
 <%= button_to "logout", destroy_user_session_path, method: :delete  %>
