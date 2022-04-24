@@ -103,8 +103,13 @@ Factory Bot
 - logout
 - clean UI
 - Assign multiple users to an account
-- Bootstrap Library Admin UTIL
+- Making a grid of accounts (views)
+- GUT OUT
+- Bootstrap Library Admin UTIL (resolved)
+  
 
 ## Issues
 
 - Current issue: Hotwire is not broadcasting the changes made to Accounts (resolved)
+- Logout gives an error page 
+  `ActionController::UnknownFormat in Devise::SessionsController#new`
