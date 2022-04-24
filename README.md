@@ -95,6 +95,7 @@ Factory Bot
 
 - Hotwire is connected
 - Bootstrap
+- Bootstrap Library Admin UTIL (resolved)
 - Devise (Still Need Logout)
 - Delete & Edit Accounts
 
@@ -105,7 +106,7 @@ Factory Bot
 - Assign multiple users to an account
 - Making a grid of accounts (views)
 - GUT OUT
-- Bootstrap Library Admin UTIL (resolved)
+- Reimplement ActiveStorage
   
 
 ## Issues
