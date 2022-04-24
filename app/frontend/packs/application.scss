@@ -1,0 +1,12 @@
+// inside app/frontend/packs/application.scss
+
+// Just a quick ugly style to see if our CSS works
+
+// Import Bootstrap v5
+@import "~bootstrap/scss/bootstrap";
+@import "admin-lte";
+@import "@fortawesome/fontawesome-free";
+
+body {
+  background-color: #c8c4aa;
+}
