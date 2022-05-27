@@ -3,6 +3,12 @@
 Account App will serve as a learning tool to understand rails technologies and software
 development workflow.
 
+## Start Application
+
+- `rails s`
+- `./bin/webpack-dev-server`
+- `redis-server`
+
 ## References
 
 ### [Figma: Rough WireFrames and Mockups](https://www.figma.com/file/UHoNSwlqdG6sUFl6lzAEY8/Accounting-App?node-id=0%3A1)
@@ -107,10 +113,15 @@ Factory Bot
 - Making a grid of accounts (views)
 - GUT OUT
 - Reimplement ActiveStorage
-  
 
 ## Issues
 
 - Current issue: Hotwire is not broadcasting the changes made to Accounts (resolved)
-- Logout gives an error page 
+- Logout gives an error page
   `ActionController::UnknownFormat in Devise::SessionsController#new`
+
+
+# Updates:
+In this commit we added the interface of having the form and envelopes on the same page. The form takes maybe 1/3 of the page and the evelopes take up the other 2/3rds.
+
+What I want to tackle next is having the cards be uniform. They are currently uneven.

@@ -1,5 +1,5 @@
 <%= turbo_frame_tag dom_id(account) do %>
-  <div class="card card-body">
+  <div class="account card card-body col-3.5">
     <div><%= account.account_type %></div>
     <div><%= account.description %></div>
     <div><%= account.balance %></div>
@@ -9,6 +9,4 @@
       <%= link_to "Delete", account_path(account), method: :delete %>
     </div>
   </div>
-  <br>
-  <br>
 <% end %>

@@ -12,9 +12,11 @@
   </div>
   
   <div class="col-8">
-    <%= turbo_frame_tag "accounts" do %>
-      <%= render @accounts %>
-    <% end %>
+    <div class="row">
+      <%= turbo_frame_tag "accounts" do %>
+        <%= render @accounts %>
+      <% end %>
+    </div>
   </div>
 
 </div>
