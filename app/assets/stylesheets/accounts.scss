@@ -4,6 +4,9 @@
 
 .account.card {
   display: inline-block;
-  height: 150px;
   width: 32%;
+}
+
+.account.card.card-body div {
+  height: 40px;
 }
